@@ -1,0 +1,21 @@
+﻿body { border-top:10px solid #C54613 }
+
+/*
+.outer-container { background-color: #C54613; }
+.main { background-color: white; }
+*/
+header { background-color: white; border-bottom: 2px solid #F5A826; }
+
+header a { color: #C54613;}
+header a:hover { color: white; text-decoration: none; background-color: #F5A826; 
+                 border-radius: 3px;  }
+
+nav a { display:inline-block; padding:0 14px; border-right:2px solid #F5A826; 
+        font:italic 20px Georgia, serif; }
+nav ul { margin: 0; padding-top: 115px; text-align: right; }
+nav ul.inline li { padding: 0;  }
+nav ul :last-child a { border: none; }
+
+footer { padding-top:28px; padding-bottom:28px; border-top: 1px solid #F5A826; }
+footer nav a { font:normal 14px Arial, sans-serif; }
+footer nav ul.inline li { line-height: 25px; }

@@ -1,0 +1,80 @@
+﻿body { border-top:10px solid #C54613; background-color: #FDF2E0; }
+
+/*
+.outer-container { margin: 0; }
+
+.main { background-color: white; }
+*/
+header { background-color: #FDF2E0; border-bottom: 2px solid #F5A826; }
+
+header nav a { color: #C54613;}
+header nav a:hover { color: white; text-decoration: none; background-color: #F5A826; 
+                 border-radius: 3px; }
+.logo img { padding-left: 3px; }
+nav a { display:inline-block; padding:0 14px; font:italic 20px Georgia, serif; }
+nav ul { margin: 0; padding-top: 115px; text-align: right; }
+nav ul.inline li { padding: 0;  }
+
+.main { background-color: #FDE7C2; }
+.main, header { box-shadow:
+        inset 10px 0 10px -10px grey,
+        inset -10px 0 10px -10px grey; 
+}
+.well {  background-color: #FBE2B9; }
+.content, .sidebar {  padding: 30px 20px 0; }
+.sidebar { border-left: 2px solid #F5A826; }
+img.feet { padding-left: 20px; }
+.content ul, h2 { color: #C54613;  }
+
+
+footer { padding-top:28px; padding-bottom:28px; border-top: 2px solid #F5A826; }
+footer nav a { font:normal 14px Arial, sans-serif; }
+footer nav ul.inline li { line-height: 25px; }
+
+
+
+.btn-custom {
+  background-color: hsl(34, 100%, 33%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#feb14c", endColorstr="#a85f00");
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#feb14c), to(#a85f00));
+  background-image: -moz-linear-gradient(top, #feb14c, #a85f00);
+  background-image: -ms-linear-gradient(top, #feb14c, #a85f00);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #feb14c), color-stop(100%, #a85f00));
+  background-image: -webkit-linear-gradient(top, #feb14c, #a85f00);
+  background-image: -o-linear-gradient(top, #feb14c, #a85f00);
+  background-image: linear-gradient(#feb14c, #a85f00);
+  border-color: #a85f00 #a85f00 hsl(34, 100%, 25%);
+  color: #fff !important;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.52);
+  -webkit-font-smoothing: antialiased;
+}
+.shadow {
+
+-moz-box-shadow:
+        inset 10px 0 10px -10px #333,
+        inset -10px 0 10px -10px #333;
+    -webkit-box-shadow:
+        inset 5px 0 5px -5px #333,
+        inset -5px 0 5px -5px #333;
+    box-shadow:
+        inset 10px 0 10px -10px grey,
+        inset -10px 0 10px -10px grey;
+}
+
+
+.top-shadow {
+  box-shadow: 0 -5px 5px -5px #333;
+}
+
+.right-shadow {
+  box-shadow: -5px 0 5px -5px #333;
+}
+
+.bottom-shadow {
+  box-shadow: 0 5px 5px -5px #333;
+}
+
+.left-shadow {
+  box-shadow: 5px 0 5px -5px #333;
+}
